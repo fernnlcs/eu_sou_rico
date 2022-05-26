@@ -11,9 +11,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-              'https://www.hardware.com.br/static/wp/2021/03/24/descobrir-musica.jpg',
-            ),
+            image: AssetImage('imagens/rubi.png'),
           ),
         ),
       ),
